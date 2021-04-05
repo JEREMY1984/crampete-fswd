@@ -1,0 +1,84 @@
+* {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  line-height: 1.6em;
+}
+p {
+  padding: 10px;
+}
+body {
+  background-color: black;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+}
+.main-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* first and second row css */
+#profileImgCol {
+  padding-top: 0px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+#profile-photo {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+#profileDesCol {
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+.pdetail {
+  padding: 8px 30px 8px 0px;
+}
+#career-row {
+  background-color: whitesmoke;
+  padding: 100px 20px 100px 20px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#career-row > table {
+  border-collapse: separate;
+} /*https://stackoverflow.com/questions/716442/css-cell-margin*/
+.job {
+  font-size: 12px;
+  text-align: center;
+  max-width: 200px;
+  height: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border: 20px solid whitesmoke;
+  word-wrap: break-word;
+}
+
+/* third row css */
+#education {
+  background-color: white;
+  text-align: left;
+  width: 100%;
+}
+#education th {
+  padding: 10px 0px 10px 100px;
+}
+
+#education p {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 20px;
+}
+
+/* footer */
+table.footer table > tr > td {
+  padding: 5px;
+}
