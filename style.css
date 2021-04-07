@@ -242,6 +242,12 @@ body {
   font-size: 30px;
   padding: 10px;
 }
+#footer-brands-row a:link {
+  color: white;
+}
+#footer-brands-row a:visited {
+  color: white;
+}
 #footer-copyright {
   font-size: 12px;
 }
